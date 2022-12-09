@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar{
+    height: 85vh;
+    width: 100%;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-area{
+    margin-top: -200px;
+    margin-left: 800px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    
+    
+}
+
+
+.nav-item{
+    margin:0 16px;
+}
+.nav-link{
+    color:rgb(126, 56, 24);
+    font-size: 18px;
+    font-weight: bolder;
+    transition: 1s;
+    text-align: center;
+   
+
+}
+.nav-link:hover{
+    color: whitesmoke;
+    font-weight: bolder;
+    
+   
+}
+.content{
+    margin-top: 200px;
+    color: white;
+    margin-right: 600px;
+    background: rgba(67, 58, 58, 0.5) ;
+    padding: 5px;
+    border-radius: 8px;
+    animation: anim_content linear 2s 1;
+   
+}
+
+@keyframes anim_content{
+    0% {margin-bottom: -50px; opacity: 0;}
+    100% { margin-bottom: 0px; opacity: 1;}
+}
+.about{
+    background-color: black;
+    margin-top: 30px;
+    color: burlywood;
+    
+}
+.text{
+    font-size: 20px;
+}
+.anchor{
+    background-color: burlywood;
+    font-weight: bold;
+    border: 2px solid rgb(126, 56, 24) ;
+    font-size: 18px;
+    
+}
+
+.anchor:hover{
+    background-color: rgba(122, 91, 91, 0.5);
+    font-size: 18px;
+    color: white;
+}
+
+.about-images{
+    position: relative;
+    
+}
+.about-img{
+    position: absolute;
+    width: 150px;
+    transition: all 2s ease;
+    opacity: 0.9;
+}
+.about-content{
+    text-align: justify;
+    
+   
+
+}
+.img-1{
+    left: 0%;
+    top: 0%;
+}
+.img-2{
+    left: 20%;
+    top: 20%;
+    z-index: 10;
+}
+.img-3{
+    left: 40%;
+    top: 45%;
+    z-index: 20;
+}
+.img-4{
+    left: 40%;
+    top: 0%;
+
+}
+.img-5{
+    left: 0%;
+    top: 45%;
+}
+.about-img:hover{
+   
+    transform: scale(1.3) rotate(20deg);
+    z-index: 30;
+    opacity: 1;
+}
+.about-images:hover,.about-img:not(:hover){
+    opacity: 0.5;
+}
+
+
+
+.card-1{
+    height: 300px;
+    width:100% ;
+
+}
+.card-4{
+    height: 300px;
+    width:100% ;
+
+}
+.card-3{
+    height: 300px;
+    width:100% ;
+
+}
+.gallery-area img{
+    width: 100%;
+    height: 300px;
+}
+.heading{
+    margin-top: 70px;
+}
+.heading span{
+    color: burlywood;
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+    font-size: 20px;
+    color: black;
+    font-weight: 49aaa98we2sa00;
+   
+}
+.contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid burlywood;
+}
+.contact textarea{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid burlywood;
+}
+.btn{
+    width: 200px;
+    height: 36px;
+    background: burlywood;
+    color: white;
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+}
+.container{
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(90deg, white 80%,burlywood 20% );
+    border-radius: 10px;
+}
+.info-area{
+    width: 40%;
+    height: 56vh;
+    background: black;
+    margin-top: 70px;
+}
+.info-area h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.info-area p{
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 13px;
+}
+@media screen and (max-width:766px){
+    .contact .container{
+        background: white;
+    }
+    .info-area{
+        width: 100%;
+        height: 90vh;
+        background: burlywood;
+    }
+    .contact{
+        width: 150vh;
+    }
+}@media screen and (max-width:400px){
+    .contact input{
+        width: 250px;
+    }
+}
+span{
+    margin-right: 8px;
+}
+1-*
+
+
+
